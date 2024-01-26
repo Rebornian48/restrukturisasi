@@ -1,2 +1,2 @@
-#Restrukturisasi JKT48
+# Restrukturisasi JKT48
 Tahun 2020-2021 merupakan masa sulit bagi JKT48 untuk bertahan, COVID-19 membuat JKT48 harus berpikir keras dan akhirnya memutuskan untuk melakukan restrukturisasi. Yang dilakukan oleh JKT48 adalah mengurangi member dan staff, menghilangkan konsep tim di JKT48. Maka dari itu sebuah halaman kecil kan dituangkan di sini sebagai peringatan bahwa JKT48 pernah melakukan restrukturisasi.
