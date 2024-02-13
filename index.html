@@ -38,7 +38,6 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-
   <body>
     <div class="navbar bg-base-100">
       <div class="flex-1">
@@ -94,7 +93,7 @@
               </li>
               <li>
                 <input
-                  type="radio"s
+                  type="radio"
                   name="theme-dropdown"
                   class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
                   aria-label="Senja"
@@ -110,36 +109,91 @@
         </ul>
       </div>
     </div>
-    <div class="hero min-h-screen bg-base-200">
-      <div class="hero-content text-center">
-        <div class="max-w-md">
-          <div class="avatar">
-            <div
-              class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
-            >
-              <img src="https://rebornian48.github.io/assets/img/tyfm.png" />
-            </div>
-          </div>
-          <h1 class="text-5xl font-bold">Restrukturisasi JKT48</h1>
-          <h1 class="text-5xl font-bold">&nbsp;</h1>
-          <h4 class="text-xl italic">Ia meletakkan kenangannya</h4>
-          <h4 class="text-xl italic">dengan sangat hati-hati</h4>
-          <h4 class="text-xl italic">di laci meja dan menguncinya</h4>
-          <h4 class="text-xl italic">&nbsp;</h4>
-          <h4 class="text-xl">Kenangan (Sapardi Joko Damono)</h4>
-          <h1 class="text-5xl font-bold">&nbsp;</h1>
-          <h4 class="text-xl">"JKT48 pernah mengalami masa menyedihkan yang dikenal dengan masa restrukturisasi. Masa yang harus mengorbankan 26 member agar dapat melewati masa yang sulit tersebut, selain itu JKT48 pernah membatalkan generasi 10 pada 4 Desember 2020. Pengumuman Restrukturisasi dibacakan pada tanggal 11 Januari 2021, yang dilanjutkan dengan konser spesial pada tanggal 28 Februari 2021. Selanjutnya last show masing-masing tim diselenggarakan pada 11 Maret 2021 (Academy Class A), 12 Maret 2021 (Team T), 13 Maret 2021 (Team KIII), dan 14 Maret 2021 (Team J)."</h4>
-          <h1 class="text-5xl font-bold">&nbsp;</h1>
-          <h4 class="text-xl font-bold">Dalam Pembangunan</h4>
-          <h1 class="text-5xl font-bold">&nbsp;</h1>
-          <footer>
-            <p class="text-center">
-              Dibangun oleh
-              <a href="https://rebornian48.github.io/">Rebornian48</a>
-            </p>
-          </footer>
+    <div class="container mx-auto text-center">
+      <div class="avatar">
+        <div
+          class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
+        >
+          <img src="https://rebornian48.github.io/assets/img/tyfm.png" />
         </div>
       </div>
+      <h1 class="text-5xl font-bold">Restrukturisasi JKT48</h1>
+      <h1 class="text-5xl font-bold">&nbsp;</h1>
+      <p>Ia meletakkan kenangannya</p>
+      <p>dengan sangat hati-hati</p>
+      <p>di laci meja dan menguncinya</p>
+      <p>Kenangan (Sapardi Joko Damono)</p>
+      <h4 class="text-xl italic">&nbsp;</h4>
+    </div>
+    <div class="container mx-auto">
+      <p>
+        "JKT48 pernah mengalami masa menyedihkan yang dikenal dengan masa
+        restrukturisasi. Masa yang harus mengorbankan 26 member agar dapat
+        melewati masa yang sulit tersebut, selain itu JKT48 pernah membatalkan
+        generasi 10 pada 4 Desember 2020. Pengumuman Restrukturisasi dibacakan
+        pada tanggal 11 Januari 2021, yang dilanjutkan dengan konser spesial
+        pada tanggal 28 Februari 2021. Selanjutnya last show masing-masing tim
+        diselenggarakan pada 11 Maret 2021 (Academy Class A), 12 Maret 2021
+        (Team T), 13 Maret 2021 (Team KIII), dan 14 Maret 2021 (Team J)."
+      </p>
+      <h1 class="text-5xl font-bold">&nbsp;</h1>
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img
+            src="https://rebornian48.github.io/assets/img/restrukturisasi/all-res.jpg"
+            class="w-full"
+          />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img
+            src="https://rebornian48.github.io/assets/img/restrukturisasi/teamJ.jpg"
+            class="w-full"
+          />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img
+            src="https://rebornian48.github.io/assets/img/restrukturisasi/teamKIII.jpg"
+            class="w-full"
+          />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <img
+            src="https://rebornian48.github.io/assets/img/restrukturisasi/teamT.jpg"
+            class="w-full"
+          />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      <h4 class="text-xl font-bold">&nbsp;</h4>
+      <footer>
+        <p class="text-center">
+          Dibangun oleh
+          <a href="https://rebornian48.github.io/">Rebornian48</a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
